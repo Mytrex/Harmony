@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration version="2.0.0.12">
+  <HarmonyPath path="../../../.."/>
+  <ForceOptimization flag="true"/>
+  <Files>
+    <File>
+      <Name>driver.h</Name>
+      <Path>/framework/driver</Path>
+    </File>
+    <File>
+      <Name>StackMacros.h</Name>
+      <Path>/OpenRTOS</Path>
+    </File>
+    <File>
+      <Name>osal_openrtos.c</Name>
+      <Path>/framework/osal/src</Path>
+    </File>
+    <File>
+      <Name>ISR_Support.h</Name>
+      <Path>/OpenRTOS/portable/MPLAB/PIC32MX</Path>
+    </File>
+    <File>
+      <Name>croutine.c</Name>
+      <Path>/OpenRTOS</Path>
+    </File>
+    <File>
+      <Name>drv_xc2c64a.h</Name>
+      <Path>/framework/driver/cpld/xc2c64a</Path>
+    </File>
+    <File>
+      <Name>drv_gfx_ssd1926.h</Name>
+      <Path>/framework/driver/gfx/controller/gfx_ssd1926</Path>
+    </File>
+    <File>
+      <Name>croutine.h</Name>
+      <Path>/OpenRTOS</Path>
+    </File>
+    <File>
+      <Name>queue.h</Name>
+      <Path>/OpenRTOS</Path>
+    </File>
+    <File>
+      <Name>port.c</Name>
+      <Path>/OpenRTOS/portable/MPLAB/PIC32MX</Path>
+    </File>
+    <File>
+      <Name>port_asm.S</Name>
+      <Path>/OpenRTOS/portable/MPLAB/PIC32MX</Path>
+    </File>
+    <File>
+      <Name>event_groups.c</Name>
+      <Path>/OpenRTOS</Path>
+    </File>
+    <File>
+      <Name>drv_gfx_truly_3.2_240x320.h</Name>
+      <Path>/framework/driver/gfx/display/truly_3.2_240x320</Path>
+    </File>
+    <File>
+      <Name>portable.h</Name>
+      <Path>/OpenRTOS</Path>
+    </File>
+    <File>
+      <Name>queue.c</Name>
+      <Path>/OpenRTOS</Path>
+    </File>
+    <File>
+      <Name>drv_gfx_ssd1926.c</Name>
+      <Path>/framework/driver/gfx/controller/gfx_ssd1926/src</Path>
+    </File>
+    <File>
+      <Name>timers.c</Name>
+      <Path>/OpenRTOS</Path>
+    </File>
+    <File>
+      <Name>semphr.h</Name>
+      <Path>/OpenRTOS</Path>
+    </File>
+    <File>
+      <Name>event_groups.h</Name>
+      <Path>/OpenRTOS</Path>
+    </File>
+    <File>
+      <Name>timers.h</Name>
+      <Path>/OpenRTOS</Path>
+    </File>
+    <File>
+      <Name>bsp_sys_init.c</Name>
+      <Path>/bsp/pic32mx_usb_sk2+meb</Path>
+    </File>
+    <File>
+      <Name>mpu_wrappers.h</Name>
+      <Path>/OpenRTOS</Path>
+    </File>
+    <File>
+      <Name>sys_ports.c</Name>
+      <Path>/framework/system/ports/src</Path>
+    </File>
+    <File>
+      <Name>sys_devcon.c</Name>
+      <Path>/framework/system/devcon/src</Path>
+    </File>
+    <File>
+      <Name>portmacro.h</Name>
+      <Path>/OpenRTOS/portable/MPLAB/PIC32MX</Path>
+    </File>
+    <File>
+      <Name>gfx.h</Name>
+      <Path>/framework/gfx</Path>
+    </File>
+    <File>
+      <Name>list.h</Name>
+      <Path>/OpenRTOS</Path>
+    </File>
+    <File>
+      <Name>sys_common.h</Name>
+      <Path>/framework/system/common</Path>
+    </File>
+    <File>
+      <Name>list.c</Name>
+      <Path>/OpenRTOS</Path>
+    </File>
+    <File>
+      <Name>gfx_primitive.h</Name>
+      <Path>/framework/gfx</Path>
+    </File>
+    <File>
+      <Name>gfx.c</Name>
+      <Path>/framework/gfx/src</Path>
+    </File>
+    <File>
+      <Name>projdefs.h</Name>
+      <Path>/OpenRTOS</Path>
+    </File>
+    <File>
+      <Name>FreeRTOS.h</Name>
+      <Path>/OpenRTOS</Path>
+    </File>
+    <File>
+      <Name>sys_int.h</Name>
+      <Path>/framework/system/int</Path>
+    </File>
+    <File>
+      <Name>tasks.c</Name>
+      <Path>/OpenRTOS</Path>
+    </File>
+    <File>
+      <Name>bsp_config.h</Name>
+      <Path>/bsp/pic32mx_usb_sk2+meb</Path>
+    </File>
+    <File>
+      <Name>sys_devcon.h</Name>
+      <Path>/framework/system/devcon</Path>
+    </File>
+    <File>
+      <Name>drv_xc2c64a.c</Name>
+      <Path>/framework/driver/cpld/xc2c64a/src/dynamic</Path>
+    </File>
+    <File>
+      <Name>sys_module.h</Name>
+      <Path>/framework/system/common</Path>
+    </File>
+    <File>
+      <Name>drv_ssd1289.c</Name>
+      <Path>/framework/driver/gfx/display/truly_3.2_240x320/src</Path>
+    </File>
+    <File>
+      <Name>sys_ports.h</Name>
+      <Path>/framework/system/ports</Path>
+    </File>
+    <File>
+      <Name>heap_1.c</Name>
+      <Path>/OpenRTOS/portable/MemMang</Path>
+    </File>
+    <File>
+      <Name>task.h</Name>
+      <Path>/OpenRTOS</Path>
+    </File>
+    <File>
+      <Name>sys_devcon_pic32mx.c</Name>
+      <Path>/framework/system/devcon/src</Path>
+    </File>
+    <File>
+      <Name>gfx_primitive.c</Name>
+      <Path>/framework/gfx/src</Path>
+    </File>
+    <File>
+      <Name>system.h</Name>
+      <Path>/framework/system</Path>
+    </File>
+    <File>
+      <Name>sys_int_pic32.c</Name>
+      <Path>/framework/system/int/src</Path>
+    </File>
+  </Files>
+  <Templates>
+    <Template>
+      <Name>app.c</Name>
+      <Path>/app</Path>
+    </Template>
+    <Template>
+      <Name>sys_clk_static.c</Name>
+      <Path>/app/system_config/pic32mx_usb_sk2_meb1/framework/system/clk/src</Path>
+      <Checksum>5AB80C62AD421A2DC039C7C1BA77E221</Checksum>
+    </Template>
+    <Template>
+      <Name>app.h</Name>
+      <Path>/app</Path>
+    </Template>
+    <Template>
+      <Name>system_interrupt_a.S</Name>
+      <Path>/app/system_config/pic32mx_usb_sk2_meb1</Path>
+      <Checksum>F8E29721D7D91213A568F3DC060408EC</Checksum>
+    </Template>
+    <Template>
+      <Name>system_definitions.h</Name>
+      <Path>/app/system_config/pic32mx_usb_sk2_meb1</Path>
+      <Checksum>001968D7EF5015E1FC45149D8D7DD2FF</Checksum>
+    </Template>
+    <Template>
+      <Name>FreeRTOSConfig.h</Name>
+      <Path>/app/system_config/pic32mx_usb_sk2_meb1</Path>
+      <Checksum>F672AC3F12124E249683C5A42DC8D69F</Checksum>
+    </Template>
+    <Template>
+      <Name>system_tasks.c</Name>
+      <Path>/app/system_config/pic32mx_usb_sk2_meb1</Path>
+      <Checksum>A6A596484138B80AB7E7F474CDD0DC59</Checksum>
+    </Template>
+    <Template>
+      <Name>app1.h</Name>
+      <Path>/app</Path>
+    </Template>
+    <Template>
+      <Name>main.c</Name>
+      <Path>/app</Path>
+    </Template>
+    <Template>
+      <Name>system_init.c</Name>
+      <Path>/app/system_config/pic32mx_usb_sk2_meb1</Path>
+      <Checksum>34AF3B10297934B7F62383C1536AA6D7</Checksum>
+    </Template>
+    <Template>
+      <Name>system_interrupt.c</Name>
+      <Path>/app/system_config/pic32mx_usb_sk2_meb1</Path>
+      <Checksum>9AC33B2960C8DF72C5EB0E3662303FF4</Checksum>
+    </Template>
+    <Template>
+      <Name>app1.c</Name>
+      <Path>/app</Path>
+    </Template>
+    <Template>
+      <Name>rtos_hooks.c</Name>
+      <Path>/app/system_config/pic32mx_usb_sk2_meb1</Path>
+      <Checksum>FA52743264536E5207D2ADBE57B48D05</Checksum>
+    </Template>
+    <Template>
+      <Name>drv_pmp_static.h</Name>
+      <Path>/app/system_config/pic32mx_usb_sk2_meb1/framework/driver/pmp</Path>
+      <Checksum>799BFBF404CEF514B5929A7011B8FCD7</Checksum>
+    </Template>
+    <Template>
+      <Name>sys_clk_static.h</Name>
+      <Path>/app/system_config/pic32mx_usb_sk2_meb1/framework/system/clk</Path>
+      <Checksum>999179DADE9ECD59953526F5E9F83ACC</Checksum>
+    </Template>
+    <Template>
+      <Name>sys_ports_static.c</Name>
+      <Path>/app/system_config/pic32mx_usb_sk2_meb1/framework/system/ports/src</Path>
+      <Checksum>4A5EAC52260282C2561EB94A2C932E64</Checksum>
+    </Template>
+    <Template>
+      <Name>drv_pmp_static.c</Name>
+      <Path>/app/system_config/pic32mx_usb_sk2_meb1/framework/driver/pmp/src</Path>
+      <Checksum>151CD7F2F91BA9482A6EB01A769E5CE3</Checksum>
+    </Template>
+    <Template>
+      <Name>system_config.h</Name>
+      <Path>/app/system_config/pic32mx_usb_sk2_meb1</Path>
+      <Checksum>C9900F7DA8F480C3DBA21C77B1DCA500</Checksum>
+    </Template>
+  </Templates>
+  <CompilerItems>
+    <C32-AS>
+      <Include value="..\..\..\..\..\..\third_party\rtos\OpenRTOS\Source\portable\MPLAB\PIC32MX"/>
+      <Include value="..\..\..\..\..\..\third_party\rtos\OpenRTOS\Source\include"/>
+      <Include value="..\src\system_config\pic32mx_usb_sk2_meb1"/>
+    </C32-AS>
+    <C32>
+      <Include value="..\..\..\..\..\..\bsp\pic32mx_usb_sk2+meb"/>
+      <Include value="..\..\..\..\..\..\framework\driver\cpld\xc2c64a"/>
+      <Include value="..\..\..\..\..\..\third_party\rtos\OpenRTOS\Source\portable\MPLAB\PIC32MX"/>
+      <Include value="..\..\..\..\..\..\third_party\rtos\OpenRTOS\Source\include"/>
+      <Include value="..\src\system_config\pic32mx_usb_sk2_meb1"/>
+      <Define value="__XC"/>
+    </C32>
+  </CompilerItems>
+  <Libraries>
+    <Library value="..\..\..\..\..\..\bin\framework\peripheral\PIC32MX795F512L_peripherals.a"/>
+  </Libraries>
+  <Designer>
+    <Assets>
+      <Settings bpp="16">
+        <MemoryLocations>
+          <MemoryLocation address="0" id="default"/>
+        </MemoryLocations>
+      </Settings>
+    </Assets>
+    <Screens height="200" width="320">
+      <Screen active="true" background="000000" clearOnShow="true" export="true" name="Untitled" primary="true" visible="true">
+        <Objects/>
+      </Screen>
+    </Screens>
+    <Schemes defaultSchemeName="default">
+      <Scheme name="default">
+        <Alpha>100</Alpha>
+        <BackgroundOffset>0,0</BackgroundOffset>
+        <EmbossSize>3</EmbossSize>
+        <Colors>
+          <Primary>FFFFFF</Primary>
+          <Secondary>404040</Secondary>
+          <Disabled>C0C0C0</Disabled>
+          <Background>000000</Background>
+          <EmbossLight>C0C0C0</EmbossLight>
+          <EmbossDark>404040</EmbossDark>
+          <TextPrimary>000000</TextPrimary>
+          <TextSecondary>FFFFFF</TextSecondary>
+          <TextDisabled>404040</TextDisabled>
+          <GradientStart>000000</GradientStart>
+          <GradientEnd>FFFFFF</GradientEnd>
+        </Colors>
+        <FillStyle>Color</FillStyle>
+        <BackgroundType>None</BackgroundType>
+      </Scheme>
+    </Schemes>
+  </Designer>
+  <DisplayManager>
+    <SystemInitScript/>
+    <SystemStartScript/>
+  </DisplayManager>
+  <General>
+    <HarmonyPath path="../../../.."/>
+    <Processor name="PIC32MX795F512L"/>
+    <Board name=""/>
+    <ForceOptimization flag="true"/>
+    <MergeStrategy flag="ALL"/>
+  </General>
+  <Manifest>
+    <Files>
+      <File>
+        <Name>osal_openrtos.c</Name>
+        <Path>Source Files/framework/osal/src</Path>
+      </File>
+      <File>
+        <Name>driver_common.h</Name>
+        <Path>Header Files/framework/driver</Path>
+      </File>
+      <File>
+        <Name>gfx_gol_picture.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>gfx_gol_progress_bar.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>gfx_gol_text_entry.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>gfx_gol_static_text.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>drv_pmp_config.h</Name>
+        <Path>Header Files/framework/driver/pmp/config</Path>
+      </File>
+      <File>
+        <Name>gfx_colors.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>gfx_primitive.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>gfx_gol_group_box.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>port.c</Name>
+        <Path>Source Files/OpenRTOS/portable/MPLAB/PIC32MX</Path>
+      </File>
+      <File>
+        <Name>gfx.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>gfx_gol_scroll_bar.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>task.h</Name>
+        <Path>Header Files/OpenRTOS</Path>
+      </File>
+      <File>
+        <Name>gfx_gol_window.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>driver.h</Name>
+        <Path>Header Files/framework/driver</Path>
+      </File>
+      <File>
+        <Name>drv_pmp_local.h</Name>
+        <Path>Header Files/framework/driver/pmp/src</Path>
+      </File>
+      <File>
+        <Name>gfx_gol_digital_meter.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>sys_int_pic32.c</Name>
+        <Path>Source Files/framework/system/int/src</Path>
+      </File>
+      <File>
+        <Name>port_asm.S</Name>
+        <Path>Source Files/OpenRTOS/portable/MPLAB/PIC32MX</Path>
+      </File>
+      <File>
+        <Name>gfx_gol.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>gfx_common.h</Name>
+        <Path>Header Files/framework/driver/gfx</Path>
+      </File>
+      <File>
+        <Name>drv_gfx_ssd1289.h</Name>
+        <Path>Header Files/framework/driver/gfx/controller/gfx_ssd1289</Path>
+      </File>
+      <File>
+        <Name>drv_xc2c64a.c</Name>
+        <Path>Source Files/framework/driver/cpld/xc2c64a/src/dynamic</Path>
+      </File>
+      <File>
+        <Name>ISR_Support.h</Name>
+        <Path>Header Files/OpenRTOS/portable/MPLAB/PIC32MX</Path>
+      </File>
+      <File>
+        <Name>gfx_gol_button.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>sys_clk.h</Name>
+        <Path>Header Files/framework/system/clk</Path>
+      </File>
+      <File>
+        <Name>gfx_primitive.c</Name>
+        <Path>Source Files/framework/gfx/src</Path>
+      </File>
+      <File>
+        <Name>gfx_types_image.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>sys_int_private.h</Name>
+        <Path>Header Files/framework/system/int/src</Path>
+      </File>
+      <File>
+        <Name>system.h</Name>
+        <Path>Header Files/framework/system</Path>
+      </File>
+      <File>
+        <Name>StackMacros.h</Name>
+        <Path>Header Files/OpenRTOS</Path>
+      </File>
+      <File>
+        <Name>drv_gfx_ssd1926.c</Name>
+        <Path>Source Files/framework/driver/gfx/controller/ssd1926/src</Path>
+      </File>
+      <File>
+        <Name>gfx_gol_edit_box.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>timers.h</Name>
+        <Path>Header Files/OpenRTOS</Path>
+      </File>
+      <File>
+        <Name>drv_gfx_controller.h</Name>
+        <Path>Header Files/framework/driver/gfx/controller</Path>
+      </File>
+      <File>
+        <Name>gfx_gol_check_box.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>event_groups.c</Name>
+        <Path>Source Files/OpenRTOS</Path>
+      </File>
+      <File>
+        <Name>gfx_types_macros.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>mpu_wrappers.h</Name>
+        <Path>Header Files/OpenRTOS</Path>
+      </File>
+      <File>
+        <Name>drv_xc2c64a.h</Name>
+        <Path>Header Files/framework/driver/cpld/xc2c64a</Path>
+      </File>
+      <File>
+        <Name>heap_1.c</Name>
+        <Path>Source Files/OpenRTOS/portable/MemMang</Path>
+      </File>
+      <File>
+        <Name>osal_openrtos.h</Name>
+        <Path>Header Files/framework/osal/src</Path>
+      </File>
+      <File>
+        <Name>sys_int.h</Name>
+        <Path>Header Files/framework/system/int</Path>
+      </File>
+      <File>
+        <Name>list.c</Name>
+        <Path>Source Files/OpenRTOS</Path>
+      </File>
+      <File>
+        <Name>croutine.h</Name>
+        <Path>Header Files/OpenRTOS</Path>
+      </File>
+      <File>
+        <Name>drv_pmp.h</Name>
+        <Path>Header Files/framework/driver/pmp</Path>
+      </File>
+      <File>
+        <Name>osal_impl_basic.h</Name>
+        <Path>Header Files/framework/osal/src</Path>
+      </File>
+      <File>
+        <Name>gfx_gol_list_box.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>projdefs.h</Name>
+        <Path>Header Files/OpenRTOS</Path>
+      </File>
+      <File>
+        <Name>sys_devcon.c</Name>
+        <Path>Source Files/framework/system/devcon/src</Path>
+      </File>
+      <File>
+        <Name>semphr.h</Name>
+        <Path>Header Files/OpenRTOS</Path>
+      </File>
+      <File>
+        <Name>osal.h</Name>
+        <Path>Header Files/framework/osal</Path>
+      </File>
+      <File>
+        <Name>gfx_types_resource.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>gfx.c</Name>
+        <Path>Source Files/framework/gfx/src</Path>
+      </File>
+      <File>
+        <Name>gfx_types_palette.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>gfx_types_font.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>sys_ports.h</Name>
+        <Path>Header Files/framework/system/ports</Path>
+      </File>
+      <File>
+        <Name>queue.h</Name>
+        <Path>Header Files/OpenRTOS</Path>
+      </File>
+      <File>
+        <Name>sys_common.h</Name>
+        <Path>Header Files/framework/system/common</Path>
+      </File>
+      <File>
+        <Name>sys_buffer.h</Name>
+        <Path>Header Files/framework/system/common</Path>
+      </File>
+      <File>
+        <Name>queue.c</Name>
+        <Path>Source Files/OpenRTOS</Path>
+      </File>
+      <File>
+        <Name>gfx_gol_meter.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>sys_clk_compatibility.h</Name>
+        <Path>Header Files/framework/system/clk</Path>
+      </File>
+      <File>
+        <Name>osal_impl_none.h</Name>
+        <Path>Header Files/framework/osal/src</Path>
+      </File>
+      <File>
+        <Name>list.h</Name>
+        <Path>Header Files/OpenRTOS</Path>
+      </File>
+      <File>
+        <Name>portable.h</Name>
+        <Path>Header Files/OpenRTOS</Path>
+      </File>
+      <File>
+        <Name>gfx_gol_surface.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>gfx_gol_custom_control.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>sys_clk_mapping.h</Name>
+        <Path>Header Files/framework/system/clk</Path>
+      </File>
+      <File>
+        <Name>event_groups.h</Name>
+        <Path>Header Files/OpenRTOS</Path>
+      </File>
+      <File>
+        <Name>osal_definitions.h</Name>
+        <Path>Header Files/framework/osal</Path>
+      </File>
+      <File>
+        <Name>sys_int_mapping.h</Name>
+        <Path>Header Files/framework/system/int</Path>
+      </File>
+      <File>
+        <Name>gfx_palette.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>sys_devcon.h</Name>
+        <Path>Header Files/framework/system/devcon</Path>
+      </File>
+      <File>
+        <Name>croutine.c</Name>
+        <Path>Source Files/OpenRTOS</Path>
+      </File>
+      <File>
+        <Name>gfx_gol_radio_button.h</Name>
+        <Path>Header Files/framework/gfx</Path>
+      </File>
+      <File>
+        <Name>timers.c</Name>
+        <Path>Source Files/OpenRTOS</Path>
+      </File>
+      <File>
+        <Name>sys_debug.h</Name>
+        <Path>Header Files/framework/system/debug</Path>
+      </File>
+      <File>
+        <Name>sys_module.h</Name>
+        <Path>Header Files/framework/system/common</Path>
+      </File>
+      <File>
+        <Name>tasks.c</Name>
+        <Path>Source Files/OpenRTOS</Path>
+      </File>
+      <File>
+        <Name>FreeRTOS.h</Name>
+        <Path>Header Files/OpenRTOS</Path>
+      </File>
+      <File>
+        <Name>sys_devcon_pic32mx.c</Name>
+        <Path>Source Files/framework/system/devcon/src</Path>
+      </File>
+      <File>
+        <Name>sys_devcon_local.h</Name>
+        <Path>Header Files/framework/system/devcon/src</Path>
+      </File>
+      <File>
+        <Name>drv_gfx_ssd1289.c</Name>
+        <Path>Source Files/framework/driver/gfx/controller/gfx_ssd1289/src</Path>
+      </File>
+      <File>
+        <Name>sys_queue.h</Name>
+        <Path>Header Files/framework/system/common</Path>
+      </File>
+      <File>
+        <Name>drv_gfx_ssd1926.h</Name>
+        <Path>Header Files/framework/driver/gfx/controller/ssd1926</Path>
+      </File>
+      <File>
+        <Name>portmacro.h</Name>
+        <Path>Header Files/OpenRTOS/portable/MPLAB/PIC32MX</Path>
+      </File>
+    </Files>
+    <Templates>
+      <Template>
+        <Name>drv_pmp_static.c</Name>
+        <Path>Source Files/app/system_config/pic32mx_usb_sk2_meb1/framework/driver/pmp/src</Path>
+        <Checksum>7E0E8C7B51328EA63F3F919C820E179F</Checksum>
+        <ProjectFileChecksum>66E56DF76385E3B4AE898751E701019A</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>system_definitions.h</Name>
+        <Path>Header Files/app/system_config/pic32mx_usb_sk2_meb1</Path>
+        <Checksum>FE9B2FE6DF36B08319D97290EB57D1E9</Checksum>
+        <ProjectFileChecksum>8126D6ACA7190C00B81036184A6CD7A8</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>main.c</Name>
+        <Path>Source Files/app</Path>
+      </Template>
+      <Template>
+        <Name>app1.c</Name>
+        <Path>Source Files/app</Path>
+      </Template>
+      <Template>
+        <Name>system_interrupt_a.S</Name>
+        <Path>Source Files/app/system_config/pic32mx_usb_sk2_meb1</Path>
+        <Checksum>F8E29721D7D91213A568F3DC060408EC</Checksum>
+        <ProjectFileChecksum>85988BBE9F7CEE49FD2568CB0AE5E4F6</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>drv_pmp_static.h</Name>
+        <Path>Header Files/app/system_config/pic32mx_usb_sk2_meb1/framework/driver/pmp</Path>
+        <Checksum>799BFBF404CEF514B5929A7011B8FCD7</Checksum>
+        <ProjectFileChecksum>E9D8BA5459A0B048D511018752F51D49</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>bsp.h</Name>
+        <Path>Header Files/app/system_config/pic32mx_usb_sk2_meb1/bsp</Path>
+        <Checksum>64FA289D89D7817BE8ACE3899BF4CA98</Checksum>
+        <ProjectFileChecksum>767234C2E7036B6263C6A5E3C573D95E</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>FreeRTOSConfig.h</Name>
+        <Path>Header Files/app/system_config/pic32mx_usb_sk2_meb1</Path>
+        <Checksum>EF9EC13C6762FDBFA517DDE8FFEB3B12</Checksum>
+        <ProjectFileChecksum>7C370F215A5AA8E76057C85936CAEEE9</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>app.c</Name>
+        <Path>Source Files/app</Path>
+      </Template>
+      <Template>
+        <Name>app1.h</Name>
+        <Path>Header Files/app</Path>
+      </Template>
+      <Template>
+        <Name>bsp.c</Name>
+        <Path>Source Files/app/system_config/pic32mx_usb_sk2_meb1/bsp</Path>
+        <Checksum>822861F3A30A6A4849445760FFE88F83</Checksum>
+        <ProjectFileChecksum>4083B04A216C76ABC7B46127704C00B1</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>system_init.c</Name>
+        <Path>Source Files/app/system_config/pic32mx_usb_sk2_meb1</Path>
+        <Checksum>32AD98F2EF04442A42AEBCB34E273824</Checksum>
+        <ProjectFileChecksum>BAA383BB0EC2A6F01C17B353A8E66B83</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>system_config.h</Name>
+        <Path>Header Files/app/system_config/pic32mx_usb_sk2_meb1</Path>
+        <Checksum>6376EC96CE0D62F3201328A0CAA28003</Checksum>
+        <ProjectFileChecksum>107D4C5383FCD2EAB85C1A51E2056791</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>app.h</Name>
+        <Path>Header Files/app</Path>
+      </Template>
+      <Template>
+        <Name>sys_ports_static.c</Name>
+        <Path>Source Files/app/system_config/pic32mx_usb_sk2_meb1/framework/system/ports/src</Path>
+        <Checksum>83E28A9509BFB1178054925FE7ED2D75</Checksum>
+        <ProjectFileChecksum>E9AF65C0FE141D4EB072DB6EA476E783</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>system_exceptions.c</Name>
+        <Path>Source Files/app/system_config/pic32mx_usb_sk2_meb1</Path>
+        <Checksum>C111969CA43D6CEA1E9E33A6164E7AE0</Checksum>
+        <ProjectFileChecksum>C9FA0741179A7D60A995302AECF5E3B5</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>sys_clk_static.c</Name>
+        <Path>Source Files/app/system_config/pic32mx_usb_sk2_meb1/framework/system/clk/src</Path>
+        <Checksum>FFBC0ECD02319812A90B6AACC6A7F7F0</Checksum>
+        <ProjectFileChecksum>BC3019F34D4BCD31D72EF9883CCAD7B7</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>system_interrupt.c</Name>
+        <Path>Source Files/app/system_config/pic32mx_usb_sk2_meb1</Path>
+        <Checksum>EB9A7230551A50942B2367B1DC0E0336</Checksum>
+        <ProjectFileChecksum>7BFCF4CA7401C1A0D03366E798F33D93</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>system_tasks.c</Name>
+        <Path>Source Files/app/system_config/pic32mx_usb_sk2_meb1</Path>
+        <Checksum>08C33F40E447B35CE13A7CF90088224F</Checksum>
+        <ProjectFileChecksum>F175CD13419BF9A0735920C3A900CED1</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>rtos_hooks.c</Name>
+        <Path>Source Files/app/system_config/pic32mx_usb_sk2_meb1</Path>
+        <Checksum>FA52743264536E5207D2ADBE57B48D05</Checksum>
+        <ProjectFileChecksum>09E4D02851A8D826AFA5A4A3150927B7</ProjectFileChecksum>
+      </Template>
+    </Templates>
+    <CompilerItems>
+      <C32-AS>
+        <Include value="../../../../../../third_party/rtos/OpenRTOS/Source/portable/MPLAB/PIC32MX"/>
+        <Include value="../../../../../../third_party/rtos/OpenRTOS/Source/include"/>
+        <Include value="../src/system_config/pic32mx_usb_sk2_meb1"/>
+      </C32-AS>
+      <C32>
+        <Include value="/home/vikasnan/GITDevRTOS/rtos/apps/rtos/openrtos/gfx/firmware/src"/>
+        <Include value="/home/vikasnan/GITDevRTOS/rtos/apps/rtos/openrtos/gfx/firmware/src/system_config/pic32mx_usb_sk2_meb1"/>
+        <Include value="/home/vikasnan/GITDevRTOS/rtos/framework"/>
+        <Include value="/home/vikasnan/GITDevRTOS/rtos/apps/rtos/openrtos/gfx/firmware/src/system_config/pic32mx_usb_sk2_meb1/framework"/>
+        <Include value="../src/system_config/pic32mx_usb_sk2_meb1/bsp"/>
+        <Include value="../../../../../../third_party/rtos/OpenRTOS/Source/portable/MPLAB/PIC32MX"/>
+        <Include value="../../../../../../third_party/rtos/OpenRTOS/Source/include"/>
+        <Include value="../src/system_config/pic32mx_usb_sk2_meb1"/>
+        <Define value="__XC"/>
+      </C32>
+    </CompilerItems>
+    <Libraries>
+      <Library value="../../../../../../bin/framework/peripheral/PIC32MX795F512L_peripherals.a"/>
+    </Libraries>
+  </Manifest>
+</configuration>

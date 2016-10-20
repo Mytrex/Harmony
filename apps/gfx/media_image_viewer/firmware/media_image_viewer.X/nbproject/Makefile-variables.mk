@@ -1,0 +1,20 @@
+#
+# Generated - do not edit!
+#
+# NOCDDL
+#
+CND_BASEDIR=`pwd`
+# pic32mz_ef_sk_meb2 configuration
+CND_ARTIFACT_DIR_pic32mz_ef_sk_meb2=dist/pic32mz_ef_sk_meb2/production
+CND_ARTIFACT_NAME_pic32mz_ef_sk_meb2=media_image_viewer.X.production.hex
+CND_ARTIFACT_PATH_pic32mz_ef_sk_meb2=dist/pic32mz_ef_sk_meb2/production/media_image_viewer.X.production.hex
+CND_PACKAGE_DIR_pic32mz_ef_sk_meb2=${CND_DISTDIR}/pic32mz_ef_sk_meb2/package
+CND_PACKAGE_NAME_pic32mz_ef_sk_meb2=mediaimageviewer.x.tar
+CND_PACKAGE_PATH_pic32mz_ef_sk_meb2=${CND_DISTDIR}/pic32mz_ef_sk_meb2/package/mediaimageviewer.x.tar
+# pic32mz_ef_sk_meb2_wvga configuration
+CND_ARTIFACT_DIR_pic32mz_ef_sk_meb2_wvga=dist/pic32mz_ef_sk_meb2_wvga/production
+CND_ARTIFACT_NAME_pic32mz_ef_sk_meb2_wvga=media_image_viewer.X.production.hex
+CND_ARTIFACT_PATH_pic32mz_ef_sk_meb2_wvga=dist/pic32mz_ef_sk_meb2_wvga/production/media_image_viewer.X.production.hex
+CND_PACKAGE_DIR_pic32mz_ef_sk_meb2_wvga=${CND_DISTDIR}/pic32mz_ef_sk_meb2_wvga/package
+CND_PACKAGE_NAME_pic32mz_ef_sk_meb2_wvga=mediaimageviewer.x.tar
+CND_PACKAGE_PATH_pic32mz_ef_sk_meb2_wvga=${CND_DISTDIR}/pic32mz_ef_sk_meb2_wvga/package/mediaimageviewer.x.tar
