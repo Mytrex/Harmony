@@ -275,10 +275,16 @@ NET_PRES_SKT_HANDLE_T NET_PRES_SocketOpen(NET_PRES_INDEX index, NET_PRES_SKT_T s
         return NET_PRES_INVALID_SOCKET;
     }
     
+    // force the first socket to be free - Jared Wood 2016-10-29
+    sNetPresSockets[0].inUse = false;
+    
+    
     // Search for a free socket
     uint8_t sockIndex;
     for (sockIndex = 0 ; sockIndex < NET_PRES_NUM_SOCKETS; sockIndex++)
     {
+        
+        
         if (sNetPresSockets[sockIndex].inUse)
         {
             continue;
