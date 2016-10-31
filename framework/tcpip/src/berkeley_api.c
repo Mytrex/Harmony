@@ -1769,6 +1769,8 @@ int closesocket( SOCKET s )
 		if(socket->bsdState == SKT_BOUND)
 			NET_PRES_SocketClose(socket->SocketID);
 	}
+    
+    NET_PRES_SocketClose(socket->SocketID);
 
 	socket->bsdState = SKT_CLOSED;
     socket->SocketID = INVALID_UDP_SOCKET;
