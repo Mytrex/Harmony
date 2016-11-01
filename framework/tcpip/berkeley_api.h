@@ -876,6 +876,8 @@ int getaddrinfo(const char *node, const char *service,
 
 void freeaddrinfo(struct addrinfo *res);
 
+void releaseAll( void );
+
 //DOM-IGNORE-BEGIN
 #ifdef __cplusplus
 }

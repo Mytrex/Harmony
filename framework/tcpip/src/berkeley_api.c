@@ -2785,5 +2785,19 @@ void freeaddrinfo(struct addrinfo *res)
     }
 }
 
+void releaseAll()
+{
+    struct BSDSocket *socket = BSDSocketArray;
+    SOCKET s;
+    
+    for (s = 0; s < BSD_SOCKET_COUNT; s++, socket++)
+    {
+        if (socket->bsdState != SKT_CLOSED) //socket in use
+        {
+            closesocket(s);
+        }
+    }
+}
+
 #endif //TCPIP_STACK_USE_BERKELEY_API
 
