@@ -224,14 +224,23 @@ Input:          JPEGDECODER
 
 Output:         Error code - '0' means no error
 *******************************************************************************/
+
+unsigned long stuckCounter;
 static uint8_t JPEG_bReadHeader(JPEGDECODER *pJpegDecoder)
 {
      uint8_t blSOSOver = false;
+
+     stuckCounter = 0;
      while(!IMG_FEOF(pJpegDecoder->pImageFile))
      {
              uint8_t btemp, bcount, bsection;
              uint16_t wSegLen, wOffset;
              
+             if(stuckCounter++ > 1000)
+             {
+                 SYS_CONSOLE_MESSAGE("\r\nBailed out because error detected\r\n");
+                 JPEG_SendError(100);
+             }
              if(blSOSOver == true)
              {
                      if(pJpegDecoder->bChannels == 1)
@@ -291,6 +300,7 @@ static uint8_t JPEG_bReadHeader(JPEGDECODER *pJpegDecoder)
                                      JPEG_SendError(100);
                              }
                      }
+                     SYS_CONSOLE_PRINT("\r\nSTUCK COUNTER(mid-function) = %d\r\n", stuckCounter);
                      return 0;
              }
 
@@ -517,7 +527,9 @@ static uint8_t JPEG_bReadHeader(JPEGDECODER *pJpegDecoder)
                           }
                           IMG_FSEEK(pJpegDecoder->pImageFile, wSegLen - 2, 1);
              }
+             
      }
+     SYS_CONSOLE_PRINT("\r\nSTUCK COUNTER = %d\r\n", stuckCounter);
      return (pJpegDecoder->blJFIF == true) ? 0 : 1;
 }
 
